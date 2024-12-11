@@ -1,0 +1,58 @@
+version: 3
+task_description: This skill provides the ability to select a table row given a date
+created_by: NextVision
+seed_examples:
+  - context: |
+      Die Tabelle zeigt den Absatz eines Produkts an ausgewählten Tagen.
+      | Absatz | Datum |
+      |----|----|
+      | 1  | 12-04-2024 |
+      | 43 | 07-08-2024 |
+      | 4  | 03-11-2024 |
+    question: Wie hoch war der Absatz am 07-08-2024?
+    answer: Es wurden 4 Produkte abgesetzt.
+  - context: |
+      Die Tabelle zeigt die Verkaufszahlen eines Buchs in verschiedenen Monaten.
+      | Verkaufszahlen | Monat         |
+      |----------------|---------------|
+      | 150            | 01-01-2024    |
+      | 200            | 01-02-2024    |
+      | 175            | 01-03-2024    |
+    question: Wie hoch waren die Verkaufszahlen im Februar 2024?
+    answer: Es wurden 200 Bücher verkauft.
+  - context: |
+      Die Tabelle zeigt die Anzahl der Besucher eines Museums an bestimmten Tagen.
+      | Besucher | Datum       |
+      |----------|-------------|
+      | 120      | 01-05-2024  |
+      | 80       | 15-05-2024  |
+      | 200      | 30-05-2024  |
+    question: Wie viele Besucher gab es am 30-05-2024?
+    answer: Es waren 200 Besucher.
+  - context: |
+      Die Tabelle zeigt die monatlichen Einnahmen eines Cafés im Jahr 2024.
+      | Einnahmen | Monat       |
+      |-----------|-------------|
+      | 5000      | 01-01-2024  |
+      | 7500      | 01-02-2024  |
+      | 6000      | 01-03-2024  |
+    question: Wie hoch waren die Einnahmen im März 2024?
+    answer: Die Einnahmen betrugen 6000 Euro.
+  - context: |
+      Die Tabelle zeigt die Anzahl der verkauften Eintrittskarten für ein Konzert.
+      | Tickets | Datum       |
+      |---------|-------------|
+      | 300     | 10-07-2024  |
+      | 450     | 11-07-2024  |
+      | 500     | 12-07-2024  |
+    question: Wie viele Tickets wurden am 11-07-2024 verkauft?
+    answer: Es wurden 450 Tickets verkauft.
+  - context: |
+      Die Tabelle zeigt die tägliche Produktion einer Fabrik in einer Woche.
+      | Produktion | Tag          |
+      |------------|--------------|
+      | 100        | 01-09-2024   |
+      | 120        | 02-09-2024   |
+      | 90         | 03-09-2024   |
+    question: Wie hoch war die Produktion am Dienstag, dem 02-09-2024?
+    answer: Die Produktion betrug 120 Einheiten.
