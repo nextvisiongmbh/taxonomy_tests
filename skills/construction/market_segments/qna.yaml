@@ -1,0 +1,50 @@
+version: 1
+task_description: |
+  Dieser Skill ermöglicht die präzise Identifikation von Marktsegmenten in der Baubranche durch Analyse von Ausschreibungen, technischen Anforderungen und regionalen Bedarfsmustern. Das Modell lernt, spezifische Produktanforderungen, wiederkehrende Bedarfe und strategische Einsatzgebiete in Bauprojekten zu erkennen.
+created_by: GrimmV
+seed_examples:
+  - context: |
+      Ein Hersteller von Rohrrahmentüren möchte seine Produkte gezielt in Ausschreibungen platzieren, bei denen regelmäßig Nachbestellungen erfolgen.
+    question: |
+      Wie können Marktsegmente mit wiederkehrendem Bedarf an Rohrrahmentüren identifiziert werden?
+    answer: |
+      1. Analyse von Ausschreibungsdatenbanken nach Projekten mit Serienvergaben
+      2. Identifikation von Schlüsselwörtern wie "Wartungsvertrag", "Rahmenvertrag" oder "Nachkaufoption"
+      3. Fokussierung auf Krankenhausbau und Gewerbeimmobilien mit standardisierten Grundrissen
+      4. Monitoring von Sanierungsprogrammen kommunaler Wohnungsbaugesellschaften
+  - context: |
+      Ein Anbieter von feuerhemmenden Dämmstoffen sucht nach wachsenden Absatzmärkten.
+    question: |
+      Welche Marktsegmente haben erhöhten Bedarf an brandschutztechnischen Speziallösungen?
+    answer: |
+      1. Hochhausbau in Ballungszentren mit verschärften Brandschutzvorschriften
+      2. Tunnelbauprojekte der Verkehrsinfrastruktur
+      3. Umrüstung von Bestandsimmobilien nach Novellierungen der Landesbauordnungen
+      4. Sonderbauten wie Labore oder Chemieanlagen
+  - context: |
+      Ein Unternehmen für nachhaltige Baumaterialien will sich in öffentlichen Ausschreibungen positionieren.
+    question: |
+      Wie identifiziere ich passende Marktsegmente für zertifizierte Öko-Bauprodukte?
+    answer: |
+      1. Filterung nach Ausschreibungen mit Zertifizierungsanforderungen (BNB, LEED, DGNB)
+      2. Fokus auf Bundesförderprogramme wie "Klimafreundlicher Sozialwohnungsbau"
+      3. Analyse von Modellprojekten klimaneutraler Städte
+      4. Identifikation von Generalunternehmern mit ESG-Strategien
+  - context: |
+      Ein Anbieter von Schalungssystemen sucht nach regionalen Expansionsmöglichkeiten.
+    question: |
+      Wie ermittle ich vielversprechende regionale Märkte für Betonschalungen?
+    answer: |
+      1. Auswertung von Bautätigkeitsindizes nach Bundesländern
+      2. Identifikation von Schwerpunktregionen für Brückensanierungen
+      3. Monitoring von Gewerbegebietserschließungen
+      4. Analyse von Großprojekten der Deutschen Einheit (z.B. Schienenausbau)
+  - context: |
+      Ein Hersteller von BIM-Software möchte Bauunternehmen mit Digitalisierungsbedarf adressieren.
+    question: |
+      Welche Marktsegmente zeigen strategischen Bedarf an digitalen Planungswerkzeugen?
+    answer: |
+      1. Mittelständische Baufirmen mit Wachstumsambitionen
+      2. Öffentliche Auftraggeber mit Vorgaben für BIM Level 2
+      3. Generalübernehmer für internationale Großprojekte
+      4. Sanierungsträger komplexer Industriedenkmäler
